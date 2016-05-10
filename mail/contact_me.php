@@ -24,8 +24,8 @@
     // In this case, we setup a test email account with the following credentials:
     // email: send_from_PHPMailer@bradm.inmotiontesting.com
     // pass: password
-    $mail->Username = "noreply@seamusbjohnston.com";  // SMTP username
-    $mail->Password = "zarathecat"; // SMTP password
+    $mail->Username = "PHPMailer@bradm.inmotiontesting.com";  // SMTP username
+    $mail->Password = "password"; // SMTP password
     
     // $email is the user's email address the specified
     // on our contact us page. We set this variable at

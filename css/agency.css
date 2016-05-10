@@ -301,12 +301,15 @@ section h3.section-subheading {
     margin: 15px 0;
     text-transform: none;
 }
+.skills
 #portfolio .portfolio-item {
     margin: 0 0 15px;
+    
     right: 0;
 }
 #portfolio .portfolio-item .portfolio-link {
     display: block;
+    height:250px;
     position: relative;
     max-width: 400px;
     margin: 0 auto;
@@ -343,6 +346,7 @@ section h3.section-subheading {
 }
 #portfolio .portfolio-item .portfolio-caption {
     max-width: 400px;
+    
     margin: 0 auto;
     background-color: white;
     text-align: center;
@@ -366,6 +370,11 @@ section h3.section-subheading {
         margin: 0 0 30px;
     }
 }
+.img-portfolio {
+    width:236px;
+    height:250px;
+}
+
 .timeline {
     list-style: none;
     padding: 0;
@@ -748,5 +757,12 @@ body {
 .devicon {
   margin:30px;
   color:#303030;
-  font-size: 12rem;
+  font-size: 15rem;
+}
+.fizz {
+    margin-left: auto;
+    margin-right: auto;
+    margin:30px;
+    color:#303030;
+    font-size: 15rem;
 }

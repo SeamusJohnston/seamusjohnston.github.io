@@ -760,7 +760,8 @@ body {
   font-size: 15rem;
 }
 .fizz {
-    margin:30px auto 30px auto;
+    margin-right: auto;
+    margin-left: auto;
     color:#303030;
     font-size: 15rem;
 }

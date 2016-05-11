@@ -14,6 +14,10 @@ body {
 .text-primary {
     color: #fed136;
 }
+.bg-secondary {
+    color: #fff;
+    background-color:#7a99b8;
+}
 p {
     font-size: 14px;
     line-height: 1.75;

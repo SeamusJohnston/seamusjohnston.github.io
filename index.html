@@ -135,7 +135,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Side projects and Coop Work</h3>
+                    <h3 class="section-subheading text-muted">Side projects and Co-op Work</h3>
                 </div>
             </div>
             <div class="row">
@@ -183,7 +183,7 @@
                 </div>
                 <div class="row text-center">
                     <h4>
-                Coming Soon: Co-Founder and Software Lead of the UWaterloo Autonomous Sailboat Team
+                Current Position: Co-Founder and Software Lead of the UWaterloo Autonomous Sailboat Team
             </h4>
                     </div>
             </div>
@@ -306,12 +306,12 @@
     <img class="img-responsive img-centered" src="img/DSC_4895-2.jpg" alt="">
 
     <!-- DESCRIPTION-->
-    RoboSwiffer was a robotic swiffer developped using bluetooth communication, ultrasonic sensors and limit switches to map rooms and avoid obstacles. The project was completed for the 1A end of term design
-    symposium.  I was the lead software developer and in charge of a lot of testing and debugging.  The robot was built with two NXT bricks and a laser cut and 3d printed frame.
-    We used PID feedback for consistent motor values and proper heading, and the robot used sensor feedback to map the room and self generate a path.
+    RoboSwiffer was a robotic swiffer developped using Bluetooth communication, ultrasonic sensors and limit switches to map rooms and avoid obstacles. The project was completed for the 1A end of term design
+    symposium.  I was the lead software developer and in charge of the majority of the testing and debugging.  The robot was built with two NXT bricks, a laser cut and 3D printed frame.
+    We used PID feedback for consistent motor values and proper heading. The robot used sensor feedback to map the room and self generate a path.
     <br> <br>
-    Path generation was complicated given the platform and sensors that we had to work with.  The algorithm I ended up writing involved taking the perimeter of the room using the touch sensors, and then dividing
-    that into travelable segments.  The code then proceeded to constantly check for an unexpected touch sensor press (ie. an obstacle).  The robot would then pivot its ultrasonic sensor around to map the dimensions ofobstacle and proceed to avoid it, and then return to its initially devised path.
+    Path generation was complicated given the platform and sensors that we had to work with.  The algorithm that I ended up writing involved taking the perimeter of the room using the touch sensors, and then dividing
+    that into travelable segments.  The code proceeded to constantly check for an unexpected touch sensor press (ie. an obstacle).  The robot would then pivot its ultrasonic sensor around to map the dimensions of an obstacle and proceed to avoid it, and then return to its initially devised path.
     
     <br> <br>
     This video showed the RoboSwiffer taking the perimeter of the room and then proceeding to follow its first path, all the while skirting the box.
@@ -359,20 +359,20 @@
     
     <!-- DESCRIPTION-->
     The RoBoat is a ROS operated motorboat. The software package I designed lets you control the rotation of the prop and the motor speed with the keyboard. It also lets you visualize gyro data in
-    RVIZ, aswellas displaying ultrasonic sensor data as a cone. The Arduino code prints the gyro data and ultrasonic data through serial for the package to read and
-    then display in RVIZ.  This was very interesting to code, as previous Arduino to ROS codes rely on the rosserial library.  I started having issues with the library when declaring a node on the arduino used half the boards dynamic memory, which implacted the reliability of the sensor data.  I did a lot of research and edited an existing package to allow for a direct serial comunication between the arduino and ROS, allow the node to be declared on the computer instead, therefore allowing for more reliable sensor data.  This alternative method reduced the Arduino Uno's dynamic memory usage by 50%. I was the sole software developer for this project.  I used the skills that I aquired in ROS from my coop and applied them to a self-started side project.
+    RVIZ, aswell as displaying ultrasonic sensor data as a cone. The Arduino code prints the gyro data and ultrasonic data through serial for the package to read and
+    then display in RVIZ.  This was very interesting to code as previous Arduino-to-ROS programs rely on the rosserial library.  I started having issues with the library when declaring a node on the Arduino used half the board's dynamic memory, which impacted the reliability of the sensor data.  I did a lot of research and edited an existing package to allow for a direct serial comunication between the Arduino and ROS, allowing the node to be declared on the computer instead.  This increased the reliability of the sensor data.  This alternative method reduced the Arduino Uno's dynamic memory usage by 50%. I was the sole software developer for this project.  I used the skills that I aquired in ROS from my co-op and applied them to a self-started side project.
     <br> <br>
     These screenshots show the visualization of the gyro and ultrasonic data as I rotate the Arduino.
     <br> <br>
     <img class="img-responsive img-centered" src="img/Boat4.png" alt="">
     <img class="img-responsive img-centered" src="img/Boat5.png" alt="">
     <br> <br>
-    This video was taken while I used my keyboard to control the prop and motor speeds.  It shows the inner working of the boats gear and servo system.
+    This video was taken while I used my keyboard to control the prop and motor speeds.  It shows the inner working of the boat's gear and servo system.
         <br> <br>
     <video class="img-responsive img-centered" src="img/out1.mp4" width="320" height="240" controls></video>
     <br> <br>
-    This video showed the boat with the full prop setup.  It was taken while I manipulated motor values wth the keyboard, and as I moved the Arduino around to show
-    how the orientation changed in the visualizer.  It also showed the ultrasonic cone as I moved that sensor closer and further away from the wall.
+    This video showed the boat with the full prop setup.  It was taken while I manipulated motor values with the keyboard.  During the video I moved the Arduino around to show
+    how the orientation changed in the visualizer.  It also showed the ultrasonic cone as I moved that sensor closer and farther away from the wall.
     <br> <br>
     <video class="img-responsive img-centered" src="img/out2.mp4" width="320" height="240" controls></video>
     <br> <br>
@@ -417,7 +417,7 @@
                             <p class="item-intro text-muted">Robotics Research Assistant</p>
                             <img class="img-responsive img-centered" src="img/WalkerModel.png" height="50%" width="50%" alt="">
                                 <br> <br>
-                                I was responsible for the ROS development of an intelligent walker for the elderly.  The goal of the walker was to be able to guide a person to a destination and avoid obstacles.  The software was designed to read intent from the person's grip on the handles and determine a goal based on that where they were trying to go.  The walker would then plan a path to the destination accounting for obstacles and turn radius etc.  Research and programming was focused on Kinect V2 based Vision systems, and Ackermann drivetrain based path planning and steering algorithms.  I also machined a handle, and support while additionally designing a preliminary walker model using SolidWorks.
+                                I was responsible for the ROS development of an intelligent walker for the elderly.  The goal of the walker was to be able to guide a person to a destination and avoid obstacles.  The software was designed to read intent from the person's grip on the handles and determine a goal.  The goal is based on the force and direction of the person's grip on the handles.  The walker would then plan a path to the destination accounting for obstacles and turn radius etc.  Research and programming were focused on Kinect V2 based Vision systems, and Ackermann drivetrain based path planning and steering algorithms.  I also machined a handle and handle support while additionally designing a preliminary walker model using SolidWorks.
                                 <br> <br>
                                 I used SLAM to create real time maps with Kinect V2 for mapping using Gmapping and RTabMap.  The maps were then processed for obstacles and used to provide visual odometry.
                                 <br> <br>
@@ -430,7 +430,7 @@
                                 <br> <br>
                                 I created the ROS package from scratch; it contained a URDF for Gazebo and RVIZ built from STLs exported from SolidWorks, as well as relevant control packages for wheels.
                                 
-                                I also wrote Arduino Code to use a bluetooth mobile app to control the simulation, as well as code to take measurements from strain sensors on the handles and relate them to motor speeds.
+                                I also wrote Arduino Code to use a Bluetooth mobile app to control the simulation, as well as code to take measurements from strain sensors on the handles and relate them to motor speeds.
                                 <br> <br>
                                 <img class="img-responsive img-centered" src="img/Walker4.png" alt="">
                                 <br> <br>

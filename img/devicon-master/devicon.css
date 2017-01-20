@@ -126,21 +126,25 @@
 .devicon-cplusplus-line:before,
 .devicon-cplusplus-line-wordmark:before {
 	content: "\e634";
+	color: #222222;
 }
 
 .devicon-cplusplus-plain:before,
 .devicon-cplusplus-plain-wordmark:before {
 	content: "\e635";
+color: #222222;
 }
 
 .devicon-csharp-line:before,
 .devicon-csharp-line-wordmark:before {
 	content: "\e636";
+color: #222222;
 }
 
 .devicon-csharp-plain:before,
 .devicon-csharp-plain-wordmark:before {
 	content: "\e637";
+color: #222222;
 }
 
 .devicon-c-line:before,
@@ -423,6 +427,7 @@
 
 .devicon-git-plain-wordmark:before {
 	content: "\e7a7";
+color: #222222;
 }
 
 .devicon-git-plain:before {
@@ -540,6 +545,7 @@
 
 .devicon-mysql-plain-wordmark:before {
 	content: "\eb60";
+color: #222222;
 }
 
 .devicon-mysql-plain:before {
@@ -581,6 +587,7 @@
 
 .devicon-python-plain-wordmark:before {
 	content: "\eb88";
+color: #222222;
 }
 
 .devicon-python-plain:before {
@@ -646,6 +653,7 @@
 
 .devicon-ubuntu-plain-wordmark:before {
 	content: "\ebd0";
+color: #222222;
 }
 
 .devicon-ubuntu-plain:before {

@@ -83,7 +83,7 @@
         <div class="intro-text">
             <div class="intro-lead-in">Mechatronics Class of 2020</div>
             <div class="intro-heading">Seamus Johnston</div>
-            <a href="doc/Resume2a-4.pdf" class="btn btn-danger btn-lg" style="margin_top: 50px;"> &nbsp &nbsp Resume &nbsp &nbsp </a>
+            <a href="doc/Resume2a-5.pdf" class="btn btn-danger btn-lg" style="margin_top: 50px;"> &nbsp &nbsp Resume &nbsp &nbsp </a>
         </div>
     </div>
 </header>
@@ -504,16 +504,16 @@
                             <img class="img-responsive img-centered" src="img/Case.png" height="50%" width="50%" alt="">
 
                             My Co-op was split between embedded work, and software development.
-                            For the embedded half, I designed, prototyped, programmed and build a case for a power module tester.  The forestry machines we worked with are installed with a Power Management Module that controls the Telematics Units State.  In order to ensure that this unit was not defective, I was tasked with developing a tester for it.  The tester applied different voltages to different pins on the Power Module, and read it's responses.  Based off of 4 pre programmed test cases, the tester would light up it's four BiColour Leds differently.
+                            For the embedded half, I designed, prototyped, programmed and build a case for a power module tester.  The forestry machines we worked with are installed with a Power Management Module that controls the Telematics unit's state.  In order to ensure that this unit was not defective, I was tasked with developing a tester for it.  The tester applies different voltages to different pins on the Power Module, and reads it's responses.  Based off of 4 pre programmed test cases, the tester lights up it's four BiColour LEDs differently.
                             <br> <br>
-                            The case was 3D printed and designed in SolidWorks, while the schematic was done in KiCAD, as well as the PCB design.  The code and tests were run from an Arduino Nano.
+                            The case was 3D printed and designed in SolidWorks, while the schematic and PCB design were done in KiCAD.  The code was run from an Arduino Nano.
                             <br> <br>
                             <img class="img-responsive img-centered" src="img/CircuitComplete.png" alt="">
 
                             The buttons controlled the tests starting, while the Boost and Step Down converters were used to change the 12V input into 3.3V for the Arduino and 26V for the Power Module.  Consequently the relay was used to control the 26V supply.
                             <br> <br>
                             <img class="img-responsive img-centered" src="img/Circuit6.png" alt="">
-                            The BiColour LEDs were charlieplexed to take the amount of IO pins used down by 4.  The LEDs were then turned on and off every 2 ms (run from an interrupt), based on the value of a stored byte (corresponding to the results of the test cases).
+                            The BiColour LEDs were charlieplexed reduce the number of used IO pins.  The LEDs were then turned on and off every 2 ms (run from an interrupt), based on the value of a stored byte (corresponding to the results of the test cases).
                             <br> <br>
                             <div class="row">
                             <div class="col-md-6">
@@ -525,7 +525,7 @@
                             </div>
                             The other half of my work was on the Manufacturing Preparatory Application for the Telematics Modules.  These modules were received with default firmware on them, but needed to be loaded with custom Tigercat Firmware and machine specific information.  This application was used in-house and only by shop floor workers.  I designed the application with the help of another student, to make it as user-friendly and brainless for the workers.  The installation process for these devices was quite complicated and took about 30 minutes to finish once started.  I designed methods for data transfer via SSH, remote/automated interactions with the Telematics Database, decrypting encrypted files, and accessing different REST APIs.
                             <br><br>
-                            As well as completing that application, I designed a seperate, more advanced version for use in the field.  Machines with outdated firmware were proving unresponsive to remote updates, so I designed a "one-click" application that ran based on pre loaded information.  This was necessary because the company database was unavailable abroad.  Since the outdated firmware had so many bugs, I coded the portable prep app to handle every possible thing that could go wrong as well as write workarounds for many specific issues.  This turned into an unbelievably effective and robust piece of software.
+                            As well as completing that application, I designed a seperate, more advanced version for use in the field.  Machines with outdated firmware were proving unresponsive to remote updates, so I designed a "one-click" application that ran based on pre loaded information.  This was necessary because the company database was unavailable abroad.  Since the outdated firmware had so many bugs, I coded the portable prep app to handle every possible thing that could go wrong as well as write workarounds for many specific issues.  This turned into an unbelievably effective and robust piece of software for updating firmware and repairing broken machines.
                             <br><br>
                             <ul class="list-inline">
                                 <li>Co-op Fall 2016</li>
@@ -562,12 +562,27 @@
                             <br> <br>
                             <img class="img-responsive img-centered" src="img/RC.JPG" alt="">
 
-                            As Software Lead, I have been responsible in leading the team through multiple hardware decisions, to aid in long term and short term goals.  The first of these was to get a NVidia Jetson TX-1, a board capable of running our entire stack on ROS and will be able to handle the necessary vision processing, when we decide to integrate it.  Currently my team is busy developing the RC functions of the boat, that will eventually cross over into autonomy.  Depicted above is my custom RC controller design, using an XBox360 controller to send data over RF to be received by the jetson.  We are currently developing all the RC functions that the boat will be able to respond to, but the XBox controller allows us to map specific movements to each button, to aid in debugging.
+                            As Software Lead, I have been responsible in leading the team through multiple hardware decisions, to aid in long term and short term goals.  The first of these was to get a NVIDIA Jetson TX-1, a board capable of running our entire stack on ROS and will be able to handle the necessary vision processing, when we decide to integrate it.  Currently my team is busy developing the RC functions of the boat, that will eventually cross over into autonomy.  Depicted above is my custom RC controller design, using an XBox360 controller to send data over RF to be received by the Jetson.  We are currently developing all the RC functions that the boat will be able to respond to, but the XBox controller allows us to map specific movements to each button, to aid in debugging.
                             <br> <br>
                             <img class="img-responsive img-centered" src="img/boat2016.png" alt="">
 
-                            The boat for the 2017 is a MaxiMOOP, a boat designed by the US Naval Academy.  The mechanical subteam is busy designing the winch used to pull is and adjust the sail, electronic storage in the hull, and molding a rudder.  Our boat for the 2018 competition is currently being designed, and will be custom made at the University of Waterloo.
+                            The boat for the 2017 is a MaxiMOOP, a boat designed by the US Naval Academy.  The mechanical subteam is busy designing the winch used to pull in and adjust the sail, electronic storage in the hull, and molding a rudder.  Our boat for the 2018 competition is currently being designed, and will be custom made at the University of Waterloo.
+
                             <br> <br>
+                            <div class="row">
+                            <div class="col-md-12">
+                                <ul class="list-inline social-buttons">
+                                    <li>
+                                        <a href="https://uwast.com"><i class="fa fa-link"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/uwast"><i class="fa fa-github"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
 
                             <ul class="list-inline">
                                 <li>May 2016 - Present</li>

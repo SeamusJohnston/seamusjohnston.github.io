@@ -275,6 +275,13 @@ if (typeof jQuery === 'undefined') {
     return this
   }
 
+    $(document).ready(function() {
+        var modals = ['#RoBoat', '#Walker', '#UWSailbot', '#RoboSwiffer', '#Tigercat', '#2GRobotics'];
+        if (window.location.hash && ~modals.indexOf(window.location.hash)) {
+            $(window.location.hash).modal();
+        }
+    })
+
 
   // BUTTON DATA-API
   // ===============

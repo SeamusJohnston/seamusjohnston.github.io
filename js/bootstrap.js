@@ -276,7 +276,37 @@ if (typeof jQuery === 'undefined') {
   }
 
     $(document).ready(function() {
-        var modals = ['#RoBoat', '#Walker', '#UWSailbot', '#RoboSwiffer', '#Tigercat', '#2GRobotics'];
+        var modals = ['#RoBoat'];
+        if (window.location.hash && ~modals.indexOf(window.location.hash)) {
+            $(window.location.hash).modal();
+        }
+    })
+    $(document).ready(function() {
+        var modals = ['#Walker'];
+        if (window.location.hash && ~modals.indexOf(window.location.hash)) {
+            $(window.location.hash).modal();
+        }
+    })
+    $(document).ready(function() {
+        var modals = ['#RoboSwiffer'];
+        if (window.location.hash && ~modals.indexOf(window.location.hash)) {
+            $(window.location.hash).modal();
+        }
+    })
+    $(document).ready(function() {
+        var modals = ['#UWSailbot'];
+        if (window.location.hash && ~modals.indexOf(window.location.hash)) {
+            $(window.location.hash).modal();
+        }
+    })
+    $(document).ready(function() {
+        var modals = ['#Tigercat'];
+        if (window.location.hash && ~modals.indexOf(window.location.hash)) {
+            $(window.location.hash).modal();
+        }
+    })
+    $(document).ready(function() {
+        var modals = ['#2GRobotics'];
         if (window.location.hash && ~modals.indexOf(window.location.hash)) {
             $(window.location.hash).modal();
         }

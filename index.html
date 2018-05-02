@@ -597,7 +597,7 @@
                             The navigator is written to optimize the boat's velocity in the direction of the target, and will thus choose an optimal path regardless of wind shifts, and wind direction.  The navigator also utilizes ROS actions and services
                             to preform pre written maneuvers such as layline navigation and tacking.  I also created a path planner that is responsible for feeding waypoints into the navigator.  This design allows us to configure the path
                             planner for different challenges (long distance navigation, collision avoidance, station keeping), without changing the navigator.  Currently the autonomous navigation challenge,the long distance challenge,
-                            and the station keeping challenge are written.  The search and collision avoidance algorithms are underway.
+                            and the station keeping challenge are written.  This is all made possible due to GPS and IMU sensors, which are filtered using a ROS Kalman and Madgwick filter.  The search and collision avoidance algorithms are underway.
                             <br> <br>
                             <div class="row">
                                 <div class="col-md-6">

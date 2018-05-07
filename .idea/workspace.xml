@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa952f9e-84c5-4df8-a14a-358aae2c92e3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/Resume2B-8.pdf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -32,10 +33,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="600" column="37" lean-forward="true" selection-start-line="600" selection-start-column="37" selection-end-line="600" selection-end-column="37" />
+            <state relative-caret-position="142">
+              <caret line="90" column="18" lean-forward="true" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
               <folding>
-                <element signature="e#3824#3849#0" expanded="true" />
+                <element signature="e#3822#3847#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -312,12 +313,13 @@
       <workItem from="1506048612452" duration="11000" />
       <workItem from="1525204784010" duration="5996000" />
       <workItem from="1525213443237" duration="849000" />
-      <workItem from="1525294262467" duration="400000" />
+      <workItem from="1525294262467" duration="963000" />
+      <workItem from="1525668959119" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24123000" />
+    <option name="totallyTimeSpent" value="24705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
@@ -359,7 +361,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3824#3849#0" expanded="true" />
+            <element signature="e#3822#3847#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -387,7 +389,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3824#3849#0" expanded="true" />
+            <element signature="e#3822#3847#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -415,7 +417,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3824#3849#0" expanded="true" />
+            <element signature="e#3822#3847#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -443,7 +445,35 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3824#3849#0" expanded="true" />
+            <element signature="e#3822#3847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="360" lean-forward="false" selection-start-line="5" selection-start-column="352" selection-end-line="5" selection-end-column="360" />
+          <folding>
+            <element signature="e#0#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4185">
+          <caret line="279" column="56" lean-forward="false" selection-start-line="279" selection-start-column="56" selection-end-line="279" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#3822#3847#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -486,10 +516,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="600" column="37" lean-forward="true" selection-start-line="600" selection-start-column="37" selection-end-line="600" selection-end-column="37" />
+        <state relative-caret-position="142">
+          <caret line="90" column="18" lean-forward="true" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
           <folding>
-            <element signature="e#3824#3849#0" expanded="true" />
+            <element signature="e#3822#3847#0" expanded="true" />
           </folding>
         </state>
       </provider>

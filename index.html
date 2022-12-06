@@ -24,6 +24,9 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <link rel="stylesheet" href="img/devicons-master/css/devicons.css">
+    <link rel="stylesheet" href="img/devicon-master/devicon.css">
+    <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="img/font-mfizz-master/dist/font-mfizz.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,9 +66,6 @@
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#resume">Resume</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#hobbies">Hobbies</a>
                     </li>
                     <li>
@@ -83,7 +83,7 @@
         <div class="intro-text">
             <div class="intro-lead-in">Mechatronics Class of 2020</div>
             <div class="intro-heading">Seamus Johnston</div>
-            <a href="#skills" class="page-scroll btn btn-xl">Tell Me More</a>
+            <a href="doc/Resume2022.pdf" class="btn btn-danger btn-lg" style="margin_top: 50px;"> &nbsp &nbsp Resume &nbsp &nbsp </a>
         </div>
     </div>
 </header>
@@ -98,7 +98,7 @@
                     <i class="devicon devicon-python-plain-wordmark"></i>
                 </div>
                 <div class="col-md-3">
-                    <i class="devicon devicon-cplusplus-line"></i>
+                    <i class="devicon devicon-cplusplus-plain-wordmark"></i>
                 </div>
                 <div class="col-md-3">
                     <i class="devicon devicon-git-plain-wordmark"></i>
@@ -108,18 +108,22 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container">
         <div class="row text-center">
-            <div class="col-lg-12 col-lg-offset-1">
+            <div class="col-lg-10 col-lg-offset-1">
                 <div class="col-md-3">
-                    <i class="icon-raspberrypi fizz"> </i>
+                    <i class="devicon devicon-c-plain-wordmark"></i>
                 </div>
-                <div class="col-md-4">
-                    <i class="icon-script fizz"></i>
+                <div class="col-md-3">
+                    <i class="devicons devicons-terminal"></i>
                 </div>
-                <div class="col-md-4">
-                    <i class="icon-debian fizz"></i>
+                <div class="col-md-3">
+                    <i class="devicon devicon-csharp-plain-wordmark"></i>
                 </div>
-                
+                <div class="col-md-3">
+                    <i class="devicons devicons-raspberry_pi"></i>
+                </div>
                 <!-- /.row (nested) -->
             </div>
             <!-- /.col-lg-10 -->
@@ -140,21 +144,91 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="#KittyHawk" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/DSC_4929-2-2.jpg" class="img-responsive" height="600px" alt="">
+                        <img src="img/kittyhawk_logo.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>RoboSwiffer</h4>
-                        <p class="text-muted">ROBOTC/NXT</p>
+                        <h4>Kitty Hawk</h4>
+                        <p class="text-muted">C/Matlab</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="#Nvidia" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/nvidia_logo.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>NVIDIA</h4>
+                        <p class="text-muted">C/C++/Matlab</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#UWSailbot" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/rsz_1logonew.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>UW Sailbot</h4>
+                        <p class="text-muted">ROS/C++/Arduino/OpenCV/Python/Bash</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#bill" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/bill2.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Search and Rescue</h4>
+                        <p class="text-muted">ROS/C++/Arduino/Bash</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#TrexoRobotics" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/trexo_logo.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Trexo Robotics</h4>
+                        <p class="text-muted">ROS/C++/Bash</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#2GRobotics" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/Ik9v0NUd.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>2G Robotics</h4>
+                        <p class="text-muted">C++/OpenCV</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#Walker" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -168,7 +242,21 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="#Tigercat" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/tigercat1.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Tigercat</h4>
+                        <p class="text-muted">C#/MySQL/Arduino/Bash/Python</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#RoBoat" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -181,30 +269,33 @@
                         <p class="text-muted">ROS/Arduino/Pi</p>
                     </div>
                 </div>
-                <div class="row text-center">
-                    <h4>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#RoboSwiffer" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/DSC_4929-2-2.jpg" class="img-responsive" height="600px" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>RoboSwiffer</h4>
+                        <p class="text-muted">ROBOTC/NXT</p>
+                    </div>
+                </div>
+                <!-- <div class="row text-center">
+                   <h4>
                 Current Position: Co-Founder and Software Lead of the UWaterloo Autonomous Sailboat Team
             </h4>
-                    </div>
+                    </div> -->
             </div>
         </div>
     </section>
-    <section id="resume" class="bg-secondary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                  <h2 class="section-heading">Resume</h2>
 
-                      
-                    <a href="doc/Resume1b-9.pdf" class="btn btn-danger btn-lg" style="margin_top: 50px;"> &nbsp &nbsp Click Me! &nbsp &nbsp </a>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
         <!-- Team Section -->
-    <section id="hobbies" class="bg-light-gray">
+    <section id="hobbies" class="services bg-secondary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -216,14 +307,12 @@
                     <div class="team-member">
                         <img src="img/sailing1.jpg" class="img-responsive img-circle" alt="">
                         <h4>Sailing</h4>
-                        <p class="text-muted">Competitive Racer for 3 years.</p>
+                        <p class="text-white">Competitive Racer for 3 years.</p>
                     </div>
                 </div>
             <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/me.jpg" class="img-responsive img-circle" alt="">
-
-
+                        <img src="img/IMG_5007.JPG" class="img-responsive img-circle" alt="">
                     </div>
                 </div>
           
@@ -231,7 +320,7 @@
             <div class="team-member">
             <img src="img/orchestra.jpg" class="img-responsive img-circle" alt="">
             <h4>Music</h4>
-            <p class="text-muted">Double Bassist with the TSYO for 3 years.</p>
+            <p class="text-white">Double Bassist with the TSYO for 3 years.</p>
             </div>
             </div>
 
@@ -259,7 +348,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Seamus Johnston 2016</span>
+                    <span class="copyright">Copyright &copy; Seamus Johnston 2019</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -274,10 +363,6 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    <span class="copyright">647 995 4375</span>
-                </div>
-
             </div>
         </div>
     </footer>
@@ -286,7 +371,7 @@
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
     <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="RoboSwiffer" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
     <div class="lr">
@@ -306,22 +391,14 @@
     <img class="img-responsive img-centered" src="img/DSC_4895-2.jpg" alt="">
 
     <!-- DESCRIPTION-->
-<<<<<<< HEAD
-    RoboSwiffer was a robotic swiffer developped using Bluetooth communication, ultrasonic sensors and limit switches to map rooms and avoid obstacles. The project was completed for the 1A end of term design
+
+    RoboSwiffer is a robotic swiffer developed using Bluetooth communication, ultrasonic sensors and limit switches to map rooms and avoid obstacles. The project was completed for the 1A end of term design
     symposium.  I was the lead software developer and in charge of the majority of the testing and debugging.  The robot was built with two NXT bricks, a laser cut and 3D printed frame.
     We used PID feedback for consistent motor values and proper heading. The robot used sensor feedback to map the room and self generate a path.
     <br> <br>
     Path generation was complicated given the platform and sensors that we had to work with.  The algorithm that I ended up writing involved taking the perimeter of the room using the touch sensors, and then dividing
     that into travelable segments.  The code proceeded to constantly check for an unexpected touch sensor press (ie. an obstacle).  The robot would then pivot its ultrasonic sensor around to map the dimensions of an obstacle and proceed to avoid it, and then return to its initially devised path.
-=======
-    RoboSwiffer was a robotic swiffer developped using bluetooth communication, ultrasonic sensors and limit switches to map rooms and avoid obstacles. The project was completed for the 1A end of term design
-    symposium.  I was the lead software developer and in charge of a lot of testing and debugging.  The robot was built with two NXT bricks and a laser cut and 3d printed frame.
-    We used PID feedback for consistent motor values and proper heading, and the robot used sensor feedback to map the room and self generate a path.
-    <br> <br>
-    Path generation was complicated given the platform and sensors that we had to work with.  The algorithm I ended up writing involved taking the perimeter of the room using the touch sensors, and then dividing
-    that into travelable segments.  The code then proceeded to constantly check for an unexpected touch sensor press (ie. an obstacle).  The robot would then pivot its ultrasonic sensor around to map the dimensions ofobstacle and proceed to avoid it, and then return to its initially devised path.
->>>>>>> 408abae5a55af30ce273d270689047c473c2ac42
-    
+
     <br> <br>
     This video showed the RoboSwiffer taking the perimeter of the room and then proceeding to follow its first path, all the while skirting the box.
 
@@ -348,7 +425,7 @@
     </div>
 
     <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="RoBoat" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
     <div class="lr">
@@ -368,27 +445,26 @@
     
     <!-- DESCRIPTION-->
     The RoBoat is a ROS operated motorboat. The software package I designed lets you control the rotation of the prop and the motor speed with the keyboard. It also lets you visualize gyro data in
-<<<<<<< HEAD
-    RVIZ, aswell as displaying ultrasonic sensor data as a cone. The Arduino code prints the gyro data and ultrasonic data through serial for the package to read and
-    then display in RVIZ.  This was very interesting to code as previous Arduino-to-ROS programs rely on the rosserial library.  I started having issues with the library when declaring a node on the Arduino used half the board's dynamic memory, which impacted the reliability of the sensor data.  I did a lot of research and edited an existing package to allow for a direct serial comunication between the Arduino and ROS, allowing the node to be declared on the computer instead.  This increased the reliability of the sensor data.  This alternative method reduced the Arduino Uno's dynamic memory usage by 50%. I was the sole software developer for this project.  I used the skills that I aquired in ROS from my co-op and applied them to a self-started side project.
-=======
-    RVIZ, aswellas displaying ultrasonic sensor data as a cone. The Arduino code prints the gyro data and ultrasonic data through serial for the package to read and
-    then display in RVIZ.  This was very interesting to code, as previous Arduino to ROS codes rely on the rosserial library.  I started having issues with the library when declaring a node on the arduino used half the boards dynamic memory, which implacted the reliability of the sensor data.  I did a lot of research and edited an existing package to allow for a direct serial comunication between the arduino and ROS, allow the node to be declared on the computer instead, therefore allowing for more reliable sensor data.  This alternative method reduced the Arduino Uno's dynamic memory usage by 50%. I was the sole software developer for this project.  I used the skills that I aquired in ROS from my coop and applied them to a self-started side project.
->>>>>>> 408abae5a55af30ce273d270689047c473c2ac42
+
+    RVIZ, as well as displaying ultrasonic sensor data as a cone. The Arduino code prints the gyro data and ultrasonic data through serial for the package to read and
+    then display in RVIZ.  This was very interesting to code as previous Arduino-to-ROS programs rely on the rosserial library.  I started having issues with the
+    library when declaring a node on the Arduino and it used half the board's dynamic memory, which impacted the reliability of the sensor data.  I did a lot of research and edited an existing
+    package to allow for a direct serial communication between the Arduino and ROS, allowing the node to be declared on the computer instead.  This increased the reliability of the sensor data.
+    This alternative method reduced the Arduino Uno's dynamic memory usage by 50%. I was the sole software developer for this project.
     <br> <br>
     These screenshots show the visualization of the gyro and ultrasonic data as I rotate the Arduino.
     <br> <br>
     <img class="img-responsive img-centered" src="img/Boat4.png" alt="">
     <img class="img-responsive img-centered" src="img/Boat5.png" alt="">
-    <br> <br>
-    This video was taken while I used my keyboard to control the prop and motor speeds.  It shows the inner working of the boat's gear and servo system.
+
+    This video was taken while I used my keyboard to control the prop and motor speeds.  It shows the inner working of the boat's gear and servo systems.
         <br> <br>
-    <video class="img-responsive img-centered" src="img/out1.mp4" width="320" height="240" controls></video>
+    <video class="img-responsive img-centered" src="img/out1.mp4" width="640" height="480" controls></video>
     <br> <br>
     This video showed the boat with the full prop setup.  It was taken while I manipulated motor values with the keyboard.  During the video I moved the Arduino around to show
     how the orientation changed in the visualizer.  It also showed the ultrasonic cone as I moved that sensor closer and farther away from the wall.
     <br> <br>
-    <video class="img-responsive img-centered" src="img/out2.mp4" width="320" height="240" controls></video>
+    <video class="img-responsive img-centered" src="img/out2.mp4" width="640" height="480" controls></video>
     <br> <br>
     
     Project members: Seamus Johnston, Jiwoo Jang, Richard Li.
@@ -400,10 +476,6 @@
         </ul>
     </div>
 
-    <ul class="list-inline">
-    <li>Manufacturing still in Progress</li>
-    
-    </ul>
     <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close Project</button>
     </div>
     </div>
@@ -414,7 +486,7 @@
     
 
     <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="Walker" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -430,22 +502,24 @@
                             <h2>Walker</h2>
                             <p class="item-intro text-muted">Robotics Research Assistant</p>
                             <img class="img-responsive img-centered" src="img/WalkerModel.png" height="50%" width="50%" alt="">
-                                <br> <br>
-<<<<<<< HEAD
-                                I was responsible for the ROS development of an intelligent walker for the elderly.  The goal of the walker was to be able to guide a person to a destination and avoid obstacles.  The software was designed to read intent from the person's grip on the handles and determine a goal.  The goal is based on the force and direction of the person's grip on the handles.  The walker would then plan a path to the destination accounting for obstacles and turn radius etc.  Research and programming were focused on Kinect V2 based Vision systems, and Ackermann drivetrain based path planning and steering algorithms.  I also machined a handle and handle support while additionally designing a preliminary walker model using SolidWorks.
-=======
-                                I was responsible for the ROS development of an intelligent walker for the elderly.  The goal of the walker was to be able to guide a person to a destination and avoid obstacles.  The software was designed to read intent from the person's grip on the handles and determine a goal based on that where they were trying to go.  The walker would then plan a path to the destination accounting for obstacles and turn radius etc.  Research and programming was focused on Kinect V2 based Vision systems, and Ackermann drivetrain based path planning and steering algorithms.  I also machined a handle, and support while additionally designing a preliminary walker model using SolidWorks.
->>>>>>> 408abae5a55af30ce273d270689047c473c2ac42
+
+
+                                I was responsible for the ROS development of an intelligent walker for the elderly.  The goal of the walker was
+                            to be able to guide a person to a destination and avoid obstacles.  The software was designed to read intent from the person's
+                            grip on the handles and determine a goal based on where they were trying to go.  The walker would then plan a path to the destination
+                            accounting for obstacles and turn radius etc.  Research and programming were focused on Kinect V2 based Vision systems, and Ackermann
+                            drivetrain based path planning and steering algorithms.  I also machined a handle, and support while additionally designing a preliminary walker model using SolidWorks.
+
                                 <br> <br>
                                 I used SLAM to create real time maps with Kinect V2 for mapping using Gmapping and RTabMap.  The maps were then processed for obstacles and used to provide visual odometry.
                                 <br> <br>
                             <img class="img-responsive img-centered" src="img/Rtab-2.png" alt="">
                             <img class="img-responsive img-centered" src="img/kinect2-2.png" alt="">
-                                <br> <br>
+
                                I worked with Neural Networks and object recognition to identify objects, as well as recognize desirable goals and set those as goals in the path planner.
                                 <br> <br>
                                 <img class="img-responsive img-centered" src="img/Walker3.png" alt="">
-                                <br> <br>
+
                                 I created the ROS package from scratch; it contained a URDF for Gazebo and RVIZ built from STLs exported from SolidWorks, as well as relevant control packages for wheels.
                                 
                                 I also wrote Arduino Code to use a Bluetooth mobile app to control the simulation, as well as code to take measurements from strain sensors on the handles and relate them to motor speeds.
@@ -466,12 +540,432 @@
         </div>
     </div>
 
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="Tigercat" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Tigercat Industries</h2>
+                            <p class="item-intro text-muted">Software Developer</p>
+                            <img class="img-responsive img-centered" src="img/Case.png" height="50%" width="50%" alt="">
+
+                            My Co-op was split between embedded work, and software development.
+                            For the embedded half, I designed, prototyped, programmed and built a case for a power module tester.
+                            The forestry machines we worked with are installed with a Power Management Module that controls the Telematics unit's state.
+                            In order to ensure that this unit was not defective, I was tasked with developing a tester for it.
+                            The tester applies different voltages to different pins on the Power Module, and reads its responses.
+                            Based off of 4 pre-programmed test cases, the tester lights up its four BiColour LEDs differently.
+                            <br> <br>
+                            The case was 3D printed and designed in SolidWorks, while the schematic and PCB design were done in KiCAD.  The code was run from an Arduino Nano.
+                            <br> <br>
+                            <img class="img-responsive img-centered" src="img/CircuitComplete.png" alt="">
+
+                            The buttons controlled the tests' start, while the Boost and Step Down converters were used to change the 12V input into 3.3V
+                            for the Arduino and 26V for the Power Module.  Consequently the relay was used to control the 26V supply.
+                            <br> <br>
+                            <img class="img-responsive img-centered" src="img/Circuit6.png" alt="">
+                            The BiColour LEDs were charlieplexed to reduce the number of used IO pins.  The LEDs were then turned on and off every 2 milliseconds
+                            (run from an interrupt), based on the value of a stored byte (corresponding to the results of the test cases).
+                            <br> <br>
+                            <div class="row">
+                            <div class="col-md-6">
+                                <img class="img-responsive img-centered" src="img/Board.png" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-responsive img-centered" src="img/Board2.png" alt="">
+                            </div>
+                            </div>
+                            The other half of my work was on the Manufacturing Preparatory Application for the Telematics Modules.  These modules were received
+                            with default firmware on them, but needed to be loaded with custom Tigercat Firmware and machine specific information.  This application was used in-house
+                            and only by shop floor workers.  I designed the application with the help of another student, to make it as user-friendly and easy for the workers.  The installation
+                            process for these devices was quite complicated and took about 30 minutes to finish once started.  I designed methods for data transfer via SSH, remote/automated
+                            interactions with the Telematics Database, decrypting encrypted files, and accessing different REST APIs.
+                            <br><br>
+                            As well as completing that application, I designed a separate, more advanced version for use in the field.  Machines with outdated firmware were proving unresponsive
+                            to remote updates, so I designed a "one-click" application that ran based on pre-loaded information.  This was necessary because the company's database was unavailable abroad.
+                            Since the outdated firmware had so many bugs, I coded the portable prep app to handle every possible thing that could go wrong, which involved writing workarounds for many specific issues.
+                            This turned into an unbelievably effective and robust piece of software for updating firmware and repairing broken machines.
+                            <br><br>
+                            <ul class="list-inline">
+                                <li>Co-op Fall 2016</li>
+
+                            </ul>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5-->
+    <div class="portfolio-modal modal fade" id="UWSailbot" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>UW Sailbot</h2>
+                            <p class="item-intro text-muted">Co-Founder and Controls Lead</p>
+                            <img class="img-responsive img-centered" src="img/sailingboat.jpg" height="100%" width="100%" alt="">
+
+                            I helped found the team in May 2016 because I hated that I didn't have time to sail anymore in university due to how demanding my program is.  The creation of this team helped me link
+                            my two favourite things: sailing and robotics.  The team has around 15 core members, and 30 additional students that help occasionally.  Our first competition was in June 2017,
+                             at the International Robotics Sailing Regatta.  We came 2nd in Canada, 1st out of all rookie teams and 6th overall (out of 11).  The above boat was our first competition vessel, named Lil Yachty.
+                            <br> <br>
+                            For 2018 we designed a 2m long monohull with a 1.5m keel, as pictured below.  Its control system is completely autonomous, featuring buoy recognition up to 15m away, and a fully functioning point to point navigator I wrote.
+                            The navigator is written to optimize the boat's velocity in the direction of the target, and will thus choose an optimal path regardless of wind shifts, and wind direction.  The navigator also utilizes ROS actions and services
+                            to preform pre written maneuvers such as layline navigation and tacking.  I also created a path planner that is responsible for feeding waypoints into the navigator.  This design allows us to configure the path
+                            planner for different challenges (long distance navigation, collision avoidance, station keeping), without changing the navigator.  Currently the autonomous navigation challenge,the long distance challenge,
+                            and the station keeping challenge are written, with the search challenge mostly complete. The boat came 4th overall (out of 7), and unfortunately a lot of the autonomous functionality of the boat was not able to 
+                            be tested due to a lot of electrical and mechanical issues.
+                            <br> <br>
+                            <img class="img-responsive img-centered" src="img/sailbot_2018.jpg" alt="">
+                            With an increasingly complicated control system and lack of testing time (due to ice and cold waters), a simulator was developed to be able to test our navigation capabilities.  The simulator interfaces with the ROS
+                            topics published with winch and rudder values, and then preforms some physics calculations to determine the boats next position (pixel -> gps).  This position and orientation is published, which the path planner/navigator
+                            receiver as they would a real position.  This allows us to test this code as if the boat was actually sailing.  It can also simulate the box for the station
+                            keeping challenge and well as different obstacles and routes for other challenges, and is extremely useful for stress testing of different navigation methods by changing wind speed/direction and other environmental changes.
+                            Additionally the simulator can be used as a visualizer for live data or for saved data from real test sessions, in order to replay and capture strange behavior.
+                            <br> <br>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="img-responsive img-centered" src="img/station.png" height="150%" width="150%" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-responsive img-centered" src="img/upwind.png" height="150%" width="150%" alt="">
+                                </div>
+                            </div>
+                            This team has allowed me to grow as a leader and understand how to delegate and manage a group of people in order to successfully raise money, recruit and compete with a fully functional boat.  Designing an entire autonomous
+                            software system from scratch has helped me learn a lot about how to make design decisions and how best to create systems that are easy to modify or build on in the future.
+                            <br> <br>
+                            <img class="img-responsive img-centered" src="img/award.jpg" alt="">
+                            You can read an article the University of Waterloo wrote about us
+                            <a href="https://uwaterloo.ca/sedra-student-design-centre/news/rough-waters-turn-smooth-sailing-student-team"> here</a>
+
+                            , and watch the following video showing our 2018 competition vessel sailing through a tack.
+                            <br> <br>
+                            <video class="img-responsive img-centered" src="img/sailbot.mov" width="640" height="480" controls></video>
+
+
+                            <br> <br>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="list-inline social-buttons">
+                                        <li>
+                                            <a href="https://www.facebook.com/uwsailbot"><i class="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.uwsailbot.com"><i class="fa fa-link"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/uwsailbot"><i class="fa fa-github"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                    <ul class="list-inline">
+                        <li>May 2016 - September 2019</li>
+                    </ul>
+
+                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="2GRobotics" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>2G Robotics</h2>
+                            <p class="item-intro text-muted">Robotics Engineering Intern</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="img-responsive img-centered" src="img/dark.png" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-responsive img-centered" src="img/brighter.png" alt="">
+                                </div>
+                            </div>
+                            During my co-op I worked on both image rectification and light distribution correction.  First: Image Leveling.  As you can see above, I devised an algorithm to aid in the correction of
+                            vignetting in underwater images taken by our underwater camera.  This was done using a linear approximation of the light distribution and OpenCV.  It was not extremely accurate due to this
+                            linear approximation of the distribution.  To make this algorithm more robust and useful, I decided to create a simulator to get the exact light distribution given the orientation and
+                            position of the underwater LEDs.
+                            <br> <br>
+                            <img class="img-responsive img-centered" src="img/led_flowchart.png" alt="">
+
+                            The steps for this algorithm were as follow:
+                            <br> <br>
+                            1.	Use camera pinhole effect to project each of the camera's pixels onto the seabed.  Use this to get the position of each pixel and its distance to the camera.
+                            <br> <br>
+                            2.	Use ray tracing techniques to determine the intensity of a specific point on the seaplane. This will be done by drawing back a vector to the LED, calculating
+                            that vectors angle, and using the candela distribution find its intensity.  Distance of the point to the LED must also be output.
+                            <br> <br>
+                            3.	Using the information from Step 1 and Step 2, figure out the intensity of each pixel knowing each pixel's position on the seabed, the distance the light travels
+                            to the plane, and the distance the pixel is from the camera.  The position of the pixel will then be fed into the algorithm for Step 1, which will determine that point’s intensity.
+                            This step will output a map of intensities per pixel.
+
+                            <br> <br>
+                            Another simulator was also written for a panel of LEDs that had one big cylindrical viewport.  This had to follow a different method because of refraction through the viewport.  A MonteCarlo
+                            simulator was designed to handle this problem, and worked by projecting billions of rays randomly (biased to the distribution of the LED intensity curve).  These rays were then summed on the seafloor
+                            and assigned to the nearest camera pixel.
+                            <br> <br>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="img-responsive img-centered" src="img/OldPanelDist.png" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-responsive img-centered" src="img/NewPanelDist.png" alt="">
+                                </div>
+                            </div>
+                            The simulator was meant generate the light distribution based on the position of 48 LEDs but the entire reason it was designed was to create a more even light distribution on the seafloor, so that
+                            image rectification would not even be needed.  This simulator let us move around the LEDs until we could find the best possible distribution.  Above are the before and after results, please note that
+                            the photos are scaled so that all the intensities are mapped between 0-255, meaning that a black pixel does not mean that no light reaches that pixel, just that it is the darkest. The metrics for the final
+                            panel are MAX: 91.9699 MIN: 36.037 AVERAGE: 67.6048.
+                            <br><br>
+                            <ul class="list-inline social-buttons">
+                                <li>
+                                    <a href="https://www.2grobotics.com"><i class="fa fa-link"></i></a>
+                                </li>
+                            </ul>
+                            <ul class="list-inline">
+                                <li>Co-op Spring 2017</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 7 -->
+    <div class="portfolio-modal modal fade" id="TrexoRobotics" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Trexo Robotics</h2>
+                            <p class="item-intro text-muted">Robotics Software Developer</p>
+                            <img class="img-responsive img-centered" src="img/trexo_sim.png" height="75%" width="75%" alt="">
+                            <br><br>
+                            During my co-op, I wrote a ROS control loop plugin for Gazebo, using a custom URDF designed for optimal traction in simulation.
+                            The simulator helped test gait patterns and different ROS controllers for the device.  Using this simulator helped uncover issues related to lag between commanded and actuated motor velocities.
+                            This led to the complete redesign of the ROS control loop.  I rewrote the control loop to use the ROS RTT integration, in order to be realtime safe.  Using a realtime Ubuntu patch, this code can run at 1000+ Hz.
+                            <br><br>
+                            My main project for my co-op term was redesigning the gait planner.  The gait was adjustable to accommodate children with certain restrictions (those whose hips/knees cannot extend past x degrees),
+                            compensated for changes in leg thigh and calf length, and was made to be speed adjustable through an android app.  The new planner is able to generate continuous gait cycles, for either of the legs, or both simultaneously.
+                            It does so by constantly generating ideal velocity and position commands for all 4 joints.  This lead to a much smoother and more accurate gait cycle, and was a huge improvement over the 8 point fixed gait trajectory that was previously used.
+                            <br><br>
+                            Something that stuck with me at the end of this coop term was talking to a parent at the end of the session and asking how his son was doing at home.  After the redesign of the gait he
+                            remarked that on the way home his son (normally walking with pencil straight legs) raised his knee to take a step.  This allowed me to realize the full scope of this project, as well
+                            as the profound impact redesign of a control system and gait planner can have on a child’s life.
+
+                            <br><br>
+                            <ul class="list-inline social-buttons">
+                                <li>
+                                    <a href="http://www.trexorobotics.com"><i class="fa fa-link"></i></a>
+                                </li>
+                            </ul>
+                            <ul class="list-inline">
+                                <li>Co-op Winter 2018</li>
+                            </ul>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 8 -->
+    <div class="portfolio-modal modal fade" id="Nvidia" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>NVIDIA - Autonomous Vehicles</h2>
+                            <p class="item-intro text-muted">Vehicle Dynamic Controls Engineering Intern</p>
+                            <img class="img-responsive img-centered" src="img/nvidia_car.jpg" height="75%" width="75%" alt="">
+                            <br><br>
+                            My co-op term at NVIDIA helped me to grow a lot as an aspiring controls engineer. I worked on an acceleration 
+                            filter to help the control system get measurements that had as little noise as possible. I analyzed and implemented many different methods 
+                            including low-pass filters, complementary filters, Kalman filters, and non-linear observers. 
+                            While I worked there, I also analyzed the control loops to ensure optimal performance, and designed a control loop latency monitor, 
+                            to help alert the health module if actuation commands were not being executed as expected.
+
+                            <br><br>
+                            <ul class="list-inline social-buttons">
+                                <li>
+                                    <a href="http://www.nvidia.com"><i class="fa fa-link"></i></a>
+                                </li>
+                            </ul>
+                            <ul class="list-inline">
+                                <li>Co-op Fall 2018</li>
+                            </ul>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 9 -->
+    <div class="portfolio-modal modal fade" id="KittyHawk" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Kitty Hawk - Cora</h2>
+                            <p class="item-intro text-muted">Flight Controls Engineer</p>
+                            <img class="img-responsive img-centered" src="img/cora.jpg" height="75%" width="75%" alt="">
+                            <br><br>
+                            My co-op term at Kitty Hawk was one of my favourites. It gave me the experience to work on a 
+                            eVTOL aircraft, with the leaders in the industry. It exposed me to multivariable controls for 6DOF systems, 
+                            and the robust design and testing procedures required for aircraft control systems. I got to work on variety of projects during 
+                            my time there. These projects included working on the preflight checks that the plane runs, adding fan failures and edge cases 
+                            to the non-linear trim optimizer in MATLAB, working on optimizing the deceleration trajectory generation and analyzing/modelling 
+                            motor thermal characteristics.
+                            <br><br>
+                            <ul class="list-inline social-buttons">
+                                <li>
+                                    <a href="http://www.cora.aero"><i class="fa fa-link"></i></a>
+                                </li>
+                            </ul>
+                            <ul class="list-inline">
+                                <li>Co-op Summer 2019</li>
+                            </ul>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 10 -->
+    <div class="portfolio-modal modal fade" id="bill" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Search and Rescue Robot - MTE 380</h2>
+                            <p class="item-intro text-muted">Software Lead</p>
+                            <img class="img-responsive img-centered" src="img/billrobot.jpeg" height="75%" width="75%" alt="">
+                            The term project for MTE 380 was the design of a search and rescue robot capable of the following functions: 
+                            extinguishing a fire, finding lego people/buildings and finding a magnet hidden under sand. In groups of 5 
+                            we had to design a robot to perform these functions while being able to traverse a 2mx2m grid. The grid was split into 
+                            multiple tiles with different terrains: sand, rocks, wood, or a valley. A valley was just a wood tile lower than the rest 
+                            so the robot had to climb back out. Our group focuses on being able to find a magnet under the sand and extinguish the fire (candle) 
+                            seeing as we only had 2 months to build and test the robot. I was responsible for all the sensor drivers, as well as the 
+                            control loops to run the motors and the localization stack to help the robot determine where it was in the course. In order 
+                            to find the candle and magnet, the course had to be scanned with an IR sensor, and then each of the sand tiles had to be visited 
+                            in sequence to determine which one had the magnet. 
+                            <br> <br>
+                            Most of the robots primary functions were accomplished with a driveToTile() function, 
+                            which heavily relied on the robot knowing where it was, and the corresponding localization stack. The following flowchart shows the 
+                            localization stack, mostly dependant on wheel odometry and ultrasonic measurements of the sides of the course.
+                            The stack was relatively effective and allowed for reasonable accuracy driving from tile to tile.
+                            <br> <br>
+                            <img class="img-responsive img-centered" src="img/Localization.png" height="75%" width="75%" alt="">
+                            The following video shows the results of the PI controller I designed for the robots heading control system. It used the outputs of the 
+                            onboard IMU to determine its heading and then actuated the motor accordingly to correct itself.
+                            <br> <br>
+                            <video class="img-responsive img-centered" src="img/bill_1.mov" width="320" height="240" controls></video>
+                            <br><br>
+                            Finally, the following video shows the successful completion of two objectives on the actual demo course.
+                            <br> <br>
+                            <video class="img-responsive img-centered" src="img/bill_2.mov" width="320" height="240" controls></video>
+                            <br><br>
+                            Project members: Seamus Johnston, Jiwoo Jang, Richard Li, Eric Gemnay, Bryan Matzko.
+                            <br> <br>
+                            <ul class="list-inline social-buttons">
+                                <li>
+                                    <a href="http://www.github.com/SeamusJohnston/SearchAndRescueRobot"><i class="fa fa-github"></i></a>
+                                </li>
+                            </ul>
+                            <ul class="list-inline">
+                                <li>Course Project Winter 2019</li>
+                            </ul>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
